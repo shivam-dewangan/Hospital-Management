@@ -38,7 +38,7 @@ const RegisterPatient = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5001/api/patients/register', {
+      const response = await fetch('https://hospital-management-uw61.onrender.com/api/patients/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
