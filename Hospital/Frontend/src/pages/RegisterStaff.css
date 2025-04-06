@@ -1,0 +1,54 @@
+.register-staff-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #eaf6ff;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-staff-form h2 {
+    text-align: center;
+  }
+  
+  .register-staff-form fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .register-staff-form legend {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  
+  .register-staff-form input,
+  .register-staff-form select,
+  .register-staff-form textarea {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 8px 10px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  
+  .register-staff-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-staff-form button:hover {
+    background-color: #218838;
+  }
+  
