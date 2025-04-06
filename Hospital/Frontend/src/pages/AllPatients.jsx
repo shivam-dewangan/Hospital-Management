@@ -7,7 +7,7 @@ const PatientList = () => {
   const [selectedPatient, setSelectedPatient] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5001/api/patients/all')
+    axios.get('https://hospital-management-uw61.onrender.com/api/patients/all')
       .then(res => setPatients(res.data))
       .catch(err => console.error('Error fetching patients:', err));
   }, []);
