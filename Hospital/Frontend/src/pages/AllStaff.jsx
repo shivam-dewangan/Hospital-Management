@@ -8,7 +8,7 @@ const StaffDashboard = () => {
   useEffect(() => {
     const fetchStaff = async () => {
       try {
-        const response = await fetch('http://localhost:5001/api/staff/all');
+        const response = await fetch('https://hospital-management-uw61.onrender.com/api/staff/all');
         const data = await response.json();
         setStaffList(data);
       } catch (error) {
