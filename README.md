@@ -1,7 +1,8 @@
 # 🏥 Hospital Management System
 
 Welcome to the Hospital Management System project.
-()./Frontend/public/Screenshot 2025-04-21 at 22.05.19.png
+![AI Interview Screenshot](./Frontend/public/Screenshot 2025-04-21 at 22.05.19.png)
+
 
 ## 🌐 Live Site
 
